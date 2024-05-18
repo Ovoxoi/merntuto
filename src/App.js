@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+
+//pages
+
+import home from "./pages/home";
 
 function App() {
   return (
-    <div className='bg-red-500 text-center'>
-      App component
+    <div className='max-w-screen-md max-auto pt-20 '>
+      <home />
     </div>
   );
 }
